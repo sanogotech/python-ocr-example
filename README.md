@@ -32,6 +32,7 @@ $ cd python-ocr-example
 
 3. If you are using Pipenv, setup the virtual environment and start it as follows:
 ```
+$  pip install pipenv
 $ pipenv install && pipenv shell
 ```
 
