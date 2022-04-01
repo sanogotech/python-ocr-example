@@ -35,16 +35,14 @@ def upload_page():
 
         if file and allowed_file(file.filename):
             file.save(os.path.join(os.getcwd() + UPLOAD_FOLDER, file.filename))
-            #path = os.path.join(app.root_path,'/images',img.filename)
             
-            #file.save(os.path.join(app.root_path,UPLOAD_FOLDER,file.filename))
+            myfilename =os.path.join(os.getcwd() + UPLOAD_FOLDER + file.filename)
 
             # call the OCR function on it
-            #extracted_text = ocr_core(file)
-            extracted_text = ocr_core('D:/code/PYTHON/OCR/python-ocr-example/static/uploads/' +'ocr_image_1.png')
-            
-            #os.path.abspath("mydir/myfile.txt")
-
+            #myfilename='D:/code/PYTHON/OCR/python-ocr-example/static/uploads/ocr_image_1.png'
+            extracted_text = ocr_core(myfilename)
+            #extracted_text = ocr_core('D:/code/PYTHON/OCR/python-ocr-example/static/uploads/' +'ocr_image_1.png')
+          
             # extract the text and display it
             return render_template('upload.html',
                                    msg='Successfully processed',
