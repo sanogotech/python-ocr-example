@@ -6,6 +6,9 @@ This repository contains the code for this [blogpost](https://stackabuse.com/pyt
 
 ## Getting Started
 
+## Docs
+
+- https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/
 ### Prerequisites
 
 Kindly ensure you have the following installed on your machine:
