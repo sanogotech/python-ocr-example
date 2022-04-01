@@ -9,6 +9,7 @@ This repository contains the code for this [blogpost](https://stackabuse.com/pyt
 ## Docs
 
 - https://stackabuse.com/pytesseract-simple-python-optical-character-recognition/
+- https://www.analyticsvidhya.com/blog/2021/06/optical-character-recognitionocr-with-tesseract-opencv-and-python/
 ### Prerequisites
 
 Kindly ensure you have the following installed on your machine:
